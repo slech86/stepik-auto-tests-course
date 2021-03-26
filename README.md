@@ -2,4 +2,6 @@
 
 homework for the course
 
-Cсылка на курс https://stepik.org/course/575/syllabus
+Ссылка на курс https://stepik.org/course/575/syllabus
+
+Решения задач с предыдущих модулей находятся в папке "course"

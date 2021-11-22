@@ -19,7 +19,7 @@ try:
     )
     driver.find_element(By.CSS_SELECTOR, ('#book')).click()
 
-    button = driver.find_element(By.CSS_SELECTOR,('#solve'))
+    button = driver.find_element(By.CSS_SELECTOR, ('#solve'))
     driver.execute_script("return arguments[0].scrollIntoView(true);", button)
 
     x = int(driver.find_element_by_css_selector("#input_value").text)

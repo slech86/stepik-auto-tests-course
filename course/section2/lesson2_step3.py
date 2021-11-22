@@ -10,7 +10,7 @@ try:
     y = int(browser.find_element_by_css_selector("#num2").text)
     q = str(x + y)
     browser.find_element_by_css_selector("#dropdown").click()
-    browser.find_element_by_css_selector("[value='" + q + "']").click()
+    browser.find_element_by_css_selector("[value='" + q + "' ]").click()
 
     browser.find_element_by_css_selector("button.btn").click()
 
